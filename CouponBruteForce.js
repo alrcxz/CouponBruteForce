@@ -147,13 +147,9 @@ var coupon = [
 "CELEBRATE"
     ];
   if (nr !== qty) {
-     
-    //document.getElementsByClassName(input)[0].value = coupon[nr];  
- 
+    
     document.getElementById(input).value = coupon[nr];
- 
     document.getElementsByClassName(button)[0].click();
- 
     nr++;
     sleep(delay, main);
   }
