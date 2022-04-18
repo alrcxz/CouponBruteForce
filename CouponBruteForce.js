@@ -3,7 +3,6 @@ var button = "ENTER CLASS NAME HERE";
  
 var nr = 0;
 const qty = 137;
-alert("Coupon checker by Sonalk (Sten)");
 var delay = prompt("Enter delay in seconds");
  
 function main() {
